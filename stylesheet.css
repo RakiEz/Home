@@ -1,0 +1,74 @@
+body{
+  background-image:url(ch_art.png);
+  background-size:cover;
+  width:1920px;
+  color:white;
+}
+
+header{
+  width:100%;
+  padding:15px 30px;
+  background-color:rgb(100, 100, 100);
+}
+
+header p{
+  color:rgb(50, 255, 200);
+  font-size:20px;
+}
+
+.container{
+  margin-top:50px;
+  margin-bottom:50px;
+  padding:0px 30px
+}
+
+.container span{
+  color:yellowgreen;
+}
+
+.intro{
+  margin-bottom:25px;
+}
+
+.intro h2{
+  border-bottom:1px dashed white;
+  color:lightgreen;
+}
+
+.SNS{
+  margin-left:30px
+}
+
+.SNS img{
+  width:100px;
+}
+
+.youtube{
+  float:left;
+  margin-right:100px;
+}
+
+.youtube a{
+  display:block;
+  color:rgb(50, 200, 120);
+}
+
+.twitter a{
+  display:block;
+  color:rgb(23, 214, 221);
+}
+
+
+.letter{
+  margin-top:25px;
+}
+
+footer img{
+  width:300px;
+  margin-right:50px;
+  border-radius:10px
+}
+
+footer h3{
+  color:rgb(140, 210, 140)
+}
