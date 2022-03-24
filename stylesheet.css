@@ -1,22 +1,29 @@
 body{
-  background-image:url(ch_art.png);
+  background-image:url(background.jpg);
   background-size:cover;
-  width:1920px;
+  width:800px;
   color:white;
+  text-align:center;
+  margin:0 auto;
+}
+
+body p, a{
+  font-size:24px;
 }
 
 header{
   width:100%;
-  padding:15px 30px;
-  background-color:rgb(100, 100, 100);
+  padding:5px 30px;
+  background-color:rgba(128, 128, 128, 0.25);
 }
 
 header p{
   color:rgb(50, 255, 200);
-  font-size:20px;
+  font-size:30px;
 }
 
 .container{
+  background-color:rgba(0, 0, 0, 0.1);
   margin-top:50px;
   margin-bottom:50px;
   padding:0px 30px
@@ -33,24 +40,29 @@ header p{
 .intro h2{
   border-bottom:1px dashed white;
   color:lightgreen;
-}
-
-.SNS{
-  margin-left:30px
+  font-size:28px;
 }
 
 .SNS img{
-  width:100px;
+  width:120px;
 }
 
 .youtube{
   float:left;
-  margin-right:100px;
+  width:50%;
+}
+
+.youtube a:hover{
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .youtube a{
   display:block;
   color:rgb(50, 200, 120);
+}
+
+.twitter a:hover{
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .twitter a{
@@ -70,5 +82,7 @@ footer img{
 }
 
 footer h3{
+  border-bottom:1px solid white;
+  font-size:22px;
   color:rgb(140, 210, 140)
 }
