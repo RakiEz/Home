@@ -43,8 +43,12 @@ header p{
   font-size:28px;
 }
 
+
+
 .SNS img{
+  background-color:rgb(0, 0, 0, 0.3);
   width:120px;
+  padding: 10px 60px;
 }
 
 .youtube{
