@@ -1,7 +1,7 @@
 body{
   background-image:url(background.jpg);
   background-size:cover;
-  width:800px;
+  width:1000px;
   color:white;
   text-align:center;
   margin:0 auto;
@@ -13,23 +13,24 @@ body p, a{
 
 header{
   width:100%;
-  padding:5px 30px;
-  background-color:rgba(128, 128, 128, 0.25);
+  padding:5px 0px;
+  margin-top:30px;
 }
 
 header p{
-  color:rgb(50, 255, 200);
-  font-size:30px;
+  color:rgb(50, 255, 129);
+  font-size:40px;
+  font-weight:bold;
 }
 
 .container{
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(0, 0, 0, 0.4);
   margin-top:50px;
   margin-bottom:50px;
   padding:0px 30px
 }
 
-.container span{
+.green{
   color:yellowgreen;
 }
 
@@ -37,45 +38,80 @@ header p{
   margin-bottom:25px;
 }
 
-.intro h2{
-  border-bottom:1px dashed white;
-  color:lightgreen;
-  font-size:28px;
+.intro p{
+  font-size: 28px;
 }
 
-
+.intro h1{
+  border-bottom:1px dashed white;
+  color:lightgreen;
+  font-size:34px;
+}
 
 .SNS {
+  display:inline-block;
   padding-top: 30px;
   padding-bottom:30px;
 }
 
-.youtube{
-  float:left;
-  width:50%;
+.SNS img{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
 }
 
-.youtube a:hover{
-  background-color:rgba(0, 0, 0, 0.5);
+.youtube{
+  width: 25%;
+  float:left;
 }
 
 .youtube a{
-  display:block;
-  color:rgb(50, 200, 120);
+  display:inline;
+  color:rgb(150, 231, 211);
+}
+
+.youtube a:hover{
+  background-color:rgba(0, 0, 0, 0.7);
+}
+
+.twitch{
+  width: 25%;
+  float:left;
+}
+
+.twitch a{
+  display:inline;
+  color:rgb(187, 173, 236);
+}
+
+.twitch a:hover{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.twitter{
+  width: 25%;
+  float:left;
+}
+
+.twitter a{
+  display:inline;
+  color:rgb(165, 207, 241);
 }
 
 .twitter a:hover{
   background-color:rgba(0, 0, 0, 0.5);
 }
 
-.twitter a{
-  display:block;
-  color:rgb(23, 214, 221);
-}
-
-
 .letter{
   margin-top:25px;
+}
+
+.letter p{
+  font-size: 24px;
+}
+
+#video{
+  background-color:dimgrey
 }
 
 footer img{
