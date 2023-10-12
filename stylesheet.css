@@ -54,20 +54,33 @@ header p{
   padding-bottom:30px;
 }
 
-.SNS img{
-  width:200px;
-  height:200px;
-  border-radius: 100px;
+.SNS div{
+  margin-bottom: 30px;
+}
+
+.SNS a{
+  display: inline-block;
+  font-size: 28px;
+}
+
+.link{
+  top: 70%;
+  left: 83%;
+  position: fixed;
+  padding: 30px;
+  background-color:rgba(105, 105, 105, 0.274);
+}
+
+.link a{
+  color:white;
 }
 
 .youtube{
-  width: 25%;
-  float:left;
+  display: block;
 }
 
-.youtube a{
-  display:inline;
-  color:rgb(150, 231, 211);
+.fa-youtube{
+  color: rgb(212, 26, 67);
 }
 
 .youtube a:hover{
@@ -75,13 +88,11 @@ header p{
 }
 
 .twitch{
-  width: 25%;
-  float:left;
+  display: block;
 }
 
-.twitch a{
-  display:inline;
-  color:rgb(187, 173, 236);
+.fa-twitch{
+  color:rgb(181, 106, 231);
 }
 
 .twitch a:hover{
@@ -89,13 +100,11 @@ header p{
 }
 
 .twitter{
-  width: 25%;
-  float:left;
+  display: block;
 }
 
-.twitter a{
-  display:inline;
-  color:rgb(165, 207, 241);
+.fa-twitter{
+  color: rgb(131, 201, 241);
 }
 
 .twitter a:hover{
@@ -115,8 +124,7 @@ header p{
 }
 
 footer img{
-  width:300px;
-  margin-right:50px;
+  width:50%;
   border-radius:10px
 }
 
