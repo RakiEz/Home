@@ -1,135 +1,98 @@
 body{
-  background-image:url(background.jpg);
-  background-size:cover;
-  width:1000px;
-  color:white;
-  text-align:center;
-  margin:0 auto;
+    background-image: url("overlay_装飾.png");
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+  background-color:lightslategray;
+}
+li{
+  float: left;
+  margin-right: 50px;
+  background-color:aliceblue;
+}
+.contents{
+  width: 100%;
+}
+.left-container{
+  width: 70%;
+  float: left;
+  margin: 10px 20px;
+  text-align: center;
+}
+.right-container{
+  width: 30%;
+  float: right;
+  position: relative;
 }
 
-body p, a{
-  font-size:24px;
-}
-
-header{
-  width:100%;
-  padding:5px 0px;
-  margin-top:30px;
-}
-
-header p{
-  color:rgb(50, 255, 129);
-  font-size:40px;
-  font-weight:bold;
-}
-
-.container{
-  background-color:rgba(0, 0, 0, 0.4);
-  margin-top:50px;
-  margin-bottom:50px;
-  padding:0px 30px
-}
-
-.green{
-  color:yellowgreen;
-}
-
-.intro{
-  margin-bottom:25px;
-}
-
-.intro p{
-  font-size: 28px;
-}
-
-.intro h1{
-  border-bottom:1px dashed white;
-  color:lightgreen;
-  font-size:34px;
-}
-
-.SNS {
-  display:inline-block;
-  padding-top: 30px;
-  padding-bottom:30px;
-}
-
-.SNS div{
-  margin-bottom: 30px;
-}
-
-.SNS a{
-  display: inline-block;
-  font-size: 28px;
-}
-
-.link{
-  top: 70%;
-  left: 83%;
+.fix{
   position: fixed;
-  padding: 30px;
-  background-color:rgba(105, 105, 105, 0.274);
+  z-index: 10;
 }
 
-.link a{
-  color:white;
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 20px;
 }
-
-.youtube{
+.dropdown-menu img{
+  display: inline-block;
+}
+.dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.slider {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.slider img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slider img.active {
+  opacity: 1;
+}
+
+.hobby h4{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.links{
+  margin-bottom: 20px;
+}
+.links a{
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .fa-youtube{
-  color: rgb(212, 26, 67);
+  color: red;
 }
-
-.youtube a:hover{
-  background-color:rgba(0, 0, 0, 0.7);
-}
-
-.twitch{
-  display: block;
-}
-
 .fa-twitch{
-  color:rgb(181, 106, 231);
+  color:blueviolet;
 }
-
-.twitch a:hover{
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-.twitter{
-  display: block;
-}
-
 .fa-twitter{
-  color: rgb(131, 201, 241);
+  color:cornflowerblue;
 }
-
-.twitter a:hover{
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-.letter{
-  margin-top:25px;
-}
-
-.letter p{
-  font-size: 24px;
-}
-
-#video{
-  background-color:dimgrey
-}
-
-footer img{
-  width:50%;
-  border-radius:10px
-}
-
-footer h3{
-  border-bottom:1px solid white;
-  font-size:22px;
-  color:rgb(140, 210, 140)
+.color-red{
+  color: red;
 }
